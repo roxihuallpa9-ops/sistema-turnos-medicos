@@ -17,11 +17,11 @@ void main() {
   var eliminar = EliminarTurno(repository);
 
   registrar.ejecutar(
-    Turno(1, "Gimena Guanca", "Dr. Perez", "24/06/2026"),
+    Turno(1, "Gimena Guanca", "Dr. Perez", "24/06/2026", "09:00"),
   );
 
   registrar.ejecutar(
-    Turno(2, "Juan Lopez", "Dra. Gomez", "25/06/2026"),
+    Turno(2, "Juan Lopez", "Dra. Gomez", "25/06/2026", "11:00"),
   );
 
   print("LISTA DE TURNOS");
@@ -39,7 +39,7 @@ void main() {
   }
 
   modificar.ejecutar(
-    Turno(1, "Gimena Guanca", "Dr. Fernandez", "30/06/2026"),
+    Turno(1, "Gimena Guanca", "Dr. Fernandez", "30/06/2026", "09.00"),
   );
 
   eliminar.ejecutar(2);
